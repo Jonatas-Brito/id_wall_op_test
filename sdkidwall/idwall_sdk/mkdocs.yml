@@ -1,0 +1,10 @@
+site_name: 'SDK React Native'
+
+nav:
+  - Home: index.md
+  - Style Guides: style_guides.md
+  - Environments: environments.md
+  - Release guide: release_guide.md
+
+plugins:
+  - techdocs-core
