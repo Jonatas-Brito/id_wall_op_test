@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'idwall_sdk'
-  s.version          = '3.3.0'
+  s.version          = '3.3.1'
   s.summary          = 'The Flutter bridge of the IDwall Mobile SDK.'
   s.description      = <<-DESC
 The Flutter bridge of the IDwall Mobile SDK.

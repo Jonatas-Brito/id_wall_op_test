@@ -3,7 +3,6 @@ package co.idwall.sdk_bridge_flutter
 import android.app.Activity
 import android.content.Intent
 import androidx.annotation.NonNull
-import co.idwall.sdk.core.SdkConfig
 import co.idwall.sdk.document.DocumentRequest
 import co.idwall.sdk.liveness.LivenessRequest
 import co.idwall.sdk.metrics.events.IdwallEvent
@@ -66,6 +65,7 @@ public class IdwallSdkFlutterPlugin : FlutterPlugin, MethodCallHandler, Activity
             channel.setMethodCallHandler(IdwallSdkFlutterPlugin())
         }
         const val BRIDGE_NAME = "bridge - flutter";
+        const val BRIDGE_VERSION = "3.3.1"
     }
 
     override fun onMethodCall(call: MethodCall, result: Result) {
@@ -137,14 +137,12 @@ public class IdwallSdkFlutterPlugin : FlutterPlugin, MethodCallHandler, Activity
 
     fun initialize(authKey: String) {
         IDwallToolkit.getInstance().init(currentActivity?.application, authKey)
-        SdkConfig.appPlatform = BRIDGE_NAME
-        SdkConfig.bridgeVersion = BuildConfig.BRIDGE_VERSION
         configEventsHandler()
         currentResult?.success(null)
 
         //Technical metrics
         IDwallToolkit.getInstance().setSdkTypeMetric(BRIDGE_NAME)
-        IDwallToolkit.getInstance().setBridgeVersion(BuildConfig.BRIDGE_VERSION)
+        IDwallToolkit.getInstance().setBridgeVersion(BRIDGE_VERSION)
     }
 
     fun initializeWithLoggingLevel(authKey: String, loggingLevel: String = "") {
@@ -156,8 +154,6 @@ public class IdwallSdkFlutterPlugin : FlutterPlugin, MethodCallHandler, Activity
         }
 
         IDwallToolkit.getInstance().init(currentActivity?.application, authKey, nativeLoggingLevel)
-        SdkConfig.appPlatform = BRIDGE_NAME
-        SdkConfig.bridgeVersion = BuildConfig.BRIDGE_VERSION
         configEventsHandler()
         currentResult?.success(null)
     }

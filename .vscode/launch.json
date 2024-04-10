@@ -21,25 +21,5 @@
             "type": "dart",
             "flutterMode": "release"
         },
-        {
-            "name": "idwall_sdk",
-            "cwd": "sdkidwall/idwall_sdk",
-            "request": "launch",
-            "type": "dart"
-        },
-        {
-            "name": "idwall_sdk (profile mode)",
-            "cwd": "sdkidwall/idwall_sdk",
-            "request": "launch",
-            "type": "dart",
-            "flutterMode": "profile"
-        },
-        {
-            "name": "idwall_sdk (release mode)",
-            "cwd": "sdkidwall/idwall_sdk",
-            "request": "launch",
-            "type": "dart",
-            "flutterMode": "release"
-        }
     ]
 }

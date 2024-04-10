@@ -3,7 +3,7 @@ version '1.0-SNAPSHOT'
 
 
 static def getBridgeVersion() {
-    return "\"3.3.0\""
+    return "\"3.3.1\""
 }
 
 buildscript {
@@ -45,7 +45,7 @@ afterEvaluate {
 }
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 31
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
@@ -74,6 +74,6 @@ android {
 dependencies {
     // noinspection GradleDynamicVersion
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    api "co.idwall:sdk-mobile-android:3.4.0"
+    api "co.idwall:sdk-mobile-android:3.4.1"
 }
 

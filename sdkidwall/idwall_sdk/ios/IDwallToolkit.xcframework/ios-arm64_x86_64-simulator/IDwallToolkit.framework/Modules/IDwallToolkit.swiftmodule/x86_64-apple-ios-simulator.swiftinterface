@@ -4,10 +4,7 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import CommonCrypto
-import CoreFoundation
-import CoreGraphics
 import CoreImage
-import CoreMedia
 import CoreMotion
 import CoreTelephony
 import CryptoKit
@@ -22,6 +19,9 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+extension Dispatch.DispatchQueue {
+  public func asyncAfter(deadline: Dispatch.DispatchTime, execute work: @escaping @convention(block) () -> Swift.Void)
+}
 @_inheritsConvenienceInitializers @objc public class IDwallToolkitManager : ObjectiveC.NSObject {
   @objc public static func sharedInstance() -> IDwallToolkit.IDwallToolkitManager
   public func startFlow(_ flowType: IDwallToolkit.IDFlowType, withDocuments documents: [IDwallToolkit.IDDocumentType]? = nil, andInputOptions inputOptions: [IDwallToolkit.IDDocInputType]? = nil, onComplete callback: IDwallToolkit.IDwallToolkitFlowResult? = nil)
@@ -199,6 +199,7 @@ public typealias IDwallToolkitSendResult = (_ jsonData: [Swift.AnyHashable : Any
     get
   }
   @objc public static func sharedInstance() -> IDwallToolkit.IDwallToolkitSettings
+  @discardableResult
   @objc public func initWithAuthKey(_ authKey: Swift.String) -> Swift.Bool
   @objc public func setupIDWallPublicKey(_ publicKeys: [Swift.String], behaviorKey: Swift.String? = nil)
   @objc public func setOnboardingData(with data: Foundation.Data?)
@@ -283,16 +284,16 @@ public enum ErrorCode : ObjectiveC.NSInteger, Swift.CaseIterable {
     get
   }
 }
-@objc public enum IDDocumentType : Swift.Int {
+@objc public enum IDDocumentType : Swift.UInt, Swift.RawRepresentable {
   case RG
   case CNH
   case Typified
   case CRLV
   case RNE
   case CRNM
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
+  public init?(rawValue: Swift.UInt)
+  public typealias RawValue = Swift.UInt
+  public var rawValue: Swift.UInt {
     get
   }
 }
@@ -336,7 +337,6 @@ extension IDwallToolkit.IDWallSend : Swift.Hashable {}
 extension IDwallToolkit.IDWallSend : Swift.RawRepresentable {}
 extension IDwallToolkit.IDDocumentType : Swift.Equatable {}
 extension IDwallToolkit.IDDocumentType : Swift.Hashable {}
-extension IDwallToolkit.IDDocumentType : Swift.RawRepresentable {}
 extension IDwallToolkit.IDDocInputType : Swift.Equatable {}
 extension IDwallToolkit.IDDocInputType : Swift.Hashable {}
 extension IDwallToolkit.IDDocInputType : Swift.RawRepresentable {}

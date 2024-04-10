@@ -100,6 +100,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDwallToolkit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CoreMotion",
         "printedName": "CoreMotion",
         "declKind": "Import",
@@ -1176,6 +1186,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDwallToolkit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1233,6 +1253,56 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDwallToolkit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDwallToolkit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDwallToolkit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDwallToolkit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDwallToolkit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1263,48 +1333,18 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDwallToolkit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "IDwallToolkit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "IDwallToolkit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "IDwallToolkit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "IDwallToolkit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "IDwallToolkit",
         "declAttributes": [
@@ -10512,6 +10552,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDwallToolkit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "MobileCoreServices",
         "printedName": "MobileCoreServices",
         "declKind": "Import",
@@ -11080,6 +11130,7 @@
             "moduleName": "IDwallToolkit",
             "declAttributes": [
               "AccessControl",
+              "DiscardableResult",
               "ObjC",
               "RawDocComment"
             ],
@@ -13325,8 +13376,8 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "IDwallToolkit",
         "declAttributes": [
@@ -13342,27 +13393,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreMedia",
-        "printedName": "CoreMedia",
-        "declKind": "Import",
-        "moduleName": "IDwallToolkit"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreFoundation",
-        "printedName": "CoreFoundation",
-        "declKind": "Import",
-        "moduleName": "IDwallToolkit"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreGraphics",
-        "printedName": "CoreGraphics",
-        "declKind": "Import",
-        "moduleName": "IDwallToolkit"
       },
       {
         "kind": "Import",
@@ -14056,14 +14086,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13IDwallToolkit14IDDocumentTypeO8rawValueACSgSi_tcfc",
-            "mangledName": "$s13IDwallToolkit14IDDocumentTypeO8rawValueACSgSi_tcfc",
+            "usr": "s:13IDwallToolkit14IDDocumentTypeO8rawValueACSgSu_tcfc",
+            "mangledName": "$s13IDwallToolkit14IDDocumentTypeO8rawValueACSgSu_tcfc",
             "moduleName": "IDwallToolkit",
             "implicit": true,
             "init_kind": "Designated"
@@ -14075,14 +14105,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13IDwallToolkit14IDDocumentTypeO8rawValueSivp",
-            "mangledName": "$s13IDwallToolkit14IDDocumentTypeO8rawValueSivp",
+            "usr": "s:13IDwallToolkit14IDDocumentTypeO8rawValueSuvp",
+            "mangledName": "$s13IDwallToolkit14IDDocumentTypeO8rawValueSuvp",
             "moduleName": "IDwallToolkit",
             "implicit": true,
             "accessors": [
@@ -14093,14 +14123,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13IDwallToolkit14IDDocumentTypeO8rawValueSivg",
-                "mangledName": "$s13IDwallToolkit14IDDocumentTypeO8rawValueSivg",
+                "usr": "s:13IDwallToolkit14IDDocumentTypeO8rawValueSuvg",
+                "mangledName": "$s13IDwallToolkit14IDDocumentTypeO8rawValueSuvg",
                 "moduleName": "IDwallToolkit",
                 "implicit": true,
                 "accessorKind": "get"
@@ -14116,7 +14146,7 @@
           "AccessControl",
           "ObjC"
         ],
-        "enumRawTypeName": "Int",
+        "enumRawTypeName": "UInt",
         "conformances": [
           {
             "kind": "Conformance",
@@ -14144,9 +14174,9 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
                   }
                 ]
               }
@@ -14402,6 +14432,16 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDwallToolkit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "IDwallToolkit",
         "declAttributes": [
@@ -15402,6 +15442,171 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "DispatchQueue",
+        "printedName": "DispatchQueue",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "asyncAfter",
+            "printedName": "asyncAfter(deadline:execute:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchTime",
+                "printedName": "Dispatch.DispatchTime",
+                "usr": "s:8Dispatch0A4TimeV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So17OS_dispatch_queueC13IDwallToolkitE10asyncAfter8deadline7executey8Dispatch0J4TimeV_yyXLtF",
+            "mangledName": "$sSo17OS_dispatch_queueC13IDwallToolkitE10asyncAfter8deadline7executey8Dispatch0J4TimeV_yyXLtF",
+            "moduleName": "IDwallToolkit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)OS_dispatch_queue",
+        "moduleName": "Dispatch",
+        "isOpen": true,
+        "objc_name": "OS_dispatch_queue",
+        "declAttributes": [
+          "ObjC",
+          "SynthesizedProtocol",
+          "Sendable",
+          "HasMissingDesignatedInitializers",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)OS_dispatch_object",
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Dispatch.DispatchObject",
+          "os_object.OS_object",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Scheduler",
+            "printedName": "Scheduler",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SchedulerTimeType",
+                "printedName": "SchedulerTimeType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SchedulerTimeType",
+                    "printedName": "Dispatch.DispatchQueue.SchedulerTimeType",
+                    "usr": "s:So17OS_dispatch_queueC8DispatchE17SchedulerTimeTypeV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SchedulerOptions",
+                "printedName": "SchedulerOptions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SchedulerOptions",
+                    "printedName": "Dispatch.DispatchQueue.SchedulerOptions",
+                    "usr": "s:So17OS_dispatch_queueC8DispatchE16SchedulerOptionsV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine9SchedulerP",
+            "mangledName": "$s7Combine9SchedulerP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "UIView",
         "printedName": "UIView",
         "declKind": "Class",
@@ -15570,125 +15775,6 @@
             "printedName": "UITraitChangeObservable",
             "usr": "s:5UIKit23UITraitChangeObservableP",
             "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "DispatchQueue",
-        "printedName": "DispatchQueue",
-        "declKind": "Class",
-        "usr": "c:objc(cs)OS_dispatch_queue",
-        "moduleName": "Dispatch",
-        "isOpen": true,
-        "objc_name": "OS_dispatch_queue",
-        "declAttributes": [
-          "ObjC",
-          "SynthesizedProtocol",
-          "Sendable",
-          "HasMissingDesignatedInitializers",
-          "Dynamic"
-        ],
-        "superclassUsr": "c:objc(cs)OS_dispatch_object",
-        "isExternal": true,
-        "hasMissingDesignatedInitializers": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "Dispatch.DispatchObject",
-          "os_object.OS_object",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Scheduler",
-            "printedName": "Scheduler",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "SchedulerTimeType",
-                "printedName": "SchedulerTimeType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SchedulerTimeType",
-                    "printedName": "Dispatch.DispatchQueue.SchedulerTimeType",
-                    "usr": "s:So17OS_dispatch_queueC8DispatchE17SchedulerTimeTypeV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "SchedulerOptions",
-                "printedName": "SchedulerOptions",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SchedulerOptions",
-                    "printedName": "Dispatch.DispatchQueue.SchedulerOptions",
-                    "usr": "s:So17OS_dispatch_queueC8DispatchE16SchedulerOptionsV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7Combine9SchedulerP",
-            "mangledName": "$s7Combine9SchedulerP"
           }
         ]
       },
@@ -16248,252 +16334,273 @@
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 602,
-      "length": 23,
-      "value": "\"document.capture_type\""
+      "offset": 336,
+      "length": 11,
+      "value": "\"automatic\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
+      "kind": "Array",
+      "offset": 383,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 662,
-      "length": 24,
-      "value": "\"document.fallback_type\""
+      "offset": 446,
+      "length": 9,
+      "value": "\"open_cv\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 719,
-      "length": 19,
-      "value": "\"document.tutorial\""
+      "offset": 692,
+      "length": 14,
+      "value": "\"capture_type\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 777,
-      "length": 26,
-      "value": "\"document.validation_mode\""
+      "offset": 735,
+      "length": 15,
+      "value": "\"fallback_type\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 835,
+      "offset": 775,
+      "length": 10,
+      "value": "\"tutorial\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 816,
+      "length": 17,
+      "value": "\"validation_mode\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 692,
+      "length": 14,
+      "value": "\"capture_type\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 735,
+      "length": 15,
+      "value": "\"fallback_type\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 775,
+      "length": 10,
+      "value": "\"tutorial\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 816,
+      "length": 17,
+      "value": "\"validation_mode\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 1797,
+      "length": 10,
+      "value": "\"document\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 1832,
+      "length": 10,
+      "value": "\"liveness\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 1874,
       "length": 18,
       "value": "\"feature_sequence\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 886,
-      "length": 20,
-      "value": "\"liveness.fallback*\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 939,
-      "length": 19,
-      "value": "\"liveness.tutorial\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 982,
+      "offset": 1916,
       "length": 10,
       "value": "\"sdk_type\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1016,
+      "offset": 1950,
       "length": 9,
       "value": "\"version\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1055,
+      "offset": 1989,
       "length": 16,
       "value": "\"bridge_version\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1099,
+      "offset": 2033,
       "length": 13,
       "value": "\"white_label\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 602,
-      "length": 23,
-      "value": "\"document.capture_type\""
+      "offset": 1797,
+      "length": 10,
+      "value": "\"document\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 662,
-      "length": 24,
-      "value": "\"document.fallback_type\""
+      "offset": 1832,
+      "length": 10,
+      "value": "\"liveness\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 719,
-      "length": 19,
-      "value": "\"document.tutorial\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 777,
-      "length": 26,
-      "value": "\"document.validation_mode\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 835,
+      "offset": 1874,
       "length": 18,
       "value": "\"feature_sequence\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 886,
-      "length": 20,
-      "value": "\"liveness.fallback*\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 939,
-      "length": 19,
-      "value": "\"liveness.tutorial\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 982,
+      "offset": 1916,
       "length": 10,
       "value": "\"sdk_type\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1016,
+      "offset": 1950,
       "length": 9,
       "value": "\"version\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1055,
+      "offset": 1989,
       "length": 16,
       "value": "\"bridge_version\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1099,
+      "offset": 2033,
       "length": 13,
       "value": "\"white_label\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1259,
+      "offset": 2193,
       "length": 8,
       "value": "\"app_id\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1294,
+      "offset": 2228,
       "length": 13,
       "value": "\"app_version\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1331,
+      "offset": 2265,
       "length": 10,
       "value": "\"app_name\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1259,
+      "offset": 2193,
       "length": 8,
       "value": "\"app_id\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1294,
+      "offset": 2228,
       "length": 13,
       "value": "\"app_version\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1331,
+      "offset": 2265,
       "length": 10,
       "value": "\"app_name\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1555,
+      "offset": 2489,
       "length": 17,
       "value": "\"connection_type\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1603,
+      "offset": 2537,
       "length": 17,
       "value": "\"installation_id\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1647,
+      "offset": 2581,
       "length": 13,
       "value": "\"device_name\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1707,
+      "offset": 2641,
       "length": 18,
       "value": "\"user_external_id\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1555,
+      "offset": 2489,
       "length": 17,
       "value": "\"connection_type\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1603,
+      "offset": 2537,
       "length": 17,
       "value": "\"installation_id\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1647,
+      "offset": 2581,
       "length": 13,
       "value": "\"device_name\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1707,
+      "offset": 2641,
       "length": 18,
       "value": "\"user_external_id\""
     },
@@ -16535,14 +16642,14 @@
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Flows\/IDwallToolkitManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 576,
+      "offset": 533,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Flows\/IDwallToolkitManager.swift",
       "kind": "StringLiteral",
-      "offset": 2938,
+      "offset": 2988,
       "length": 7,
       "value": "\"front\""
     },
@@ -16675,42 +16782,42 @@
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/OpenCV\/Lightness.swift",
       "kind": "StringLiteral",
-      "offset": 313,
+      "offset": 303,
       "length": 20,
       "value": "\"min_mean_threshold\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/OpenCV\/Lightness.swift",
       "kind": "StringLiteral",
-      "offset": 366,
+      "offset": 350,
       "length": 20,
       "value": "\"max_mean_threshold\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/OpenCV\/Lightness.swift",
       "kind": "StringLiteral",
-      "offset": 313,
+      "offset": 303,
       "length": 20,
       "value": "\"min_mean_threshold\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/OpenCV\/Lightness.swift",
       "kind": "StringLiteral",
-      "offset": 366,
+      "offset": 350,
       "length": 20,
       "value": "\"max_mean_threshold\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Coordinator\/CompleteFlow\/LivenessFlow\/LivenessFlowCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 453,
+      "offset": 452,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Coordinator\/CompleteFlow\/LivenessFlow\/LivenessFlowCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 496,
+      "offset": 494,
       "length": 5,
       "value": "false"
     },
@@ -16773,7 +16880,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Documents\/IDwallDocuments\/ViewModel\/DocumentSideViewModel.swift",
       "kind": "Array",
-      "offset": 647,
+      "offset": 652,
       "length": 2,
       "value": "[]"
     },
@@ -16829,7 +16936,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Coordinator\/DigitalDocumentFlow\/IDwallDigitalDocDependencyInjector.swift",
       "kind": "BooleanLiteral",
-      "offset": 794,
+      "offset": 786,
       "length": 5,
       "value": "false"
     },
@@ -16876,6 +16983,13 @@
       "value": "0.25"
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/FaceModule\/Model\/LivenessImage.swift",
+      "kind": "StringLiteral",
+      "offset": 192,
+      "length": 13,
+      "value": "\"IDwallToolkit.LivenessImage\""
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/FaceModule\/States\/LivenessStateSearching.swift",
       "kind": "BooleanLiteral",
       "offset": 433,
@@ -16885,9 +16999,44 @@
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/CompleteFlow\/Loading\/View\/ProgressView.swift",
       "kind": "StringLiteral",
+      "offset": 291,
+      "length": 18,
+      "value": "\"LoadingAnimation\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/CompleteFlow\/Loading\/View\/ProgressView.swift",
+      "kind": "StringLiteral",
       "offset": 174,
       "length": 12,
       "value": "\"IDwallToolkit.ProgressView\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Storage\/DigitalDocuments\/DigitalDocumentRepository.swift",
+      "kind": "Array",
+      "offset": 836,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Storage\/DigitalDocuments\/DigitalDocumentRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 991,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Repository\/FileUploadRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 915,
+      "length": 12,
+      "value": "\"image\/jpeg\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Repository\/FileUploadRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 1266,
+      "length": 12,
+      "value": "\"image\/jpeg\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Documents\/DigitalDocumentsUpload\/DocumentUploadViewController.swift",
@@ -16981,9 +17130,23 @@
       "value": "\"IDwallTutorialDocumentRGBackTemplateSubtitle\""
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Endpoints\/FileUploadEndpoints.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 12,
+      "value": "\"image\/jpeg\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Endpoints\/FileUploadEndpoints.swift",
+      "kind": "StringLiteral",
+      "offset": 356,
+      "length": 12,
+      "value": "\"image\/jpeg\""
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Coordinator\/ChooseDocumentCoordinator\/ChooseDocumentCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 5019,
+      "offset": 5031,
       "length": 5,
       "value": "false"
     },
@@ -17032,28 +17195,28 @@
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Coordinator\/CompleteFlow\/CompleteFlowDependencyInjector.swift",
       "kind": "StringLiteral",
-      "offset": 4612,
+      "offset": 4598,
       "length": 58,
       "value": "\"CompleteFlowDependencyInjectorIntermediaryViewModelTitle\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Coordinator\/CompleteFlow\/CompleteFlowDependencyInjector.swift",
       "kind": "StringLiteral",
-      "offset": 4714,
+      "offset": 4700,
       "length": 64,
       "value": "\"CompleteFlowDependencyInjectorIntermediaryViewModelDescription\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Coordinator\/CompleteFlow\/CompleteFlowDependencyInjector.swift",
       "kind": "StringLiteral",
-      "offset": 4830,
+      "offset": 4816,
       "length": 72,
       "value": "\"CompleteFlowDependencyInjectorIntermediaryViewModelContinueButtonTitle\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Coordinator\/CompleteFlow\/CompleteFlowDependencyInjector.swift",
       "kind": "BooleanLiteral",
-      "offset": 4951,
+      "offset": 4937,
       "length": 4,
       "value": "true"
     },
@@ -17326,28 +17489,28 @@
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Coordinator\/ChooseDocumentCoordinator\/ChooseDocumentDependencyInjector.swift",
       "kind": "StringLiteral",
-      "offset": 1262,
+      "offset": 1249,
       "length": 70,
       "value": "\"IDwallChooseDocumentDependencyInjectorDocumentsOptionsViewModelTitle\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Coordinator\/ChooseDocumentCoordinator\/ChooseDocumentDependencyInjector.swift",
       "kind": "StringLiteral",
-      "offset": 1408,
+      "offset": 1359,
       "length": 76,
       "value": "\"IDwallChooseDocumentDependencyInjectorDocumentsOptionsViewModelDescription\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Coordinator\/ChooseDocumentCoordinator\/ChooseDocumentDependencyInjector.swift",
       "kind": "StringLiteral",
-      "offset": 1648,
+      "offset": 1581,
       "length": 64,
       "value": "\"IDwallChooseDocumentDependencyInjectorUploadTypeViewModelTitle\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Coordinator\/ChooseDocumentCoordinator\/ChooseDocumentDependencyInjector.swift",
       "kind": "StringLiteral",
-      "offset": 1788,
+      "offset": 1685,
       "length": 70,
       "value": "\"IDwallChooseDocumentDependencyInjectorUploadTypeViewModelDescription\""
     },
@@ -18089,56 +18252,56 @@
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/OpenCV\/DocSize.swift",
       "kind": "StringLiteral",
-      "offset": 347,
+      "offset": 362,
       "length": 10,
       "value": "\"min_size\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/OpenCV\/DocSize.swift",
       "kind": "StringLiteral",
-      "offset": 381,
+      "offset": 396,
       "length": 10,
       "value": "\"new_size\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/OpenCV\/DocSize.swift",
       "kind": "StringLiteral",
-      "offset": 417,
+      "offset": 432,
       "length": 12,
       "value": "\"mean_ratio\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/OpenCV\/DocSize.swift",
       "kind": "StringLiteral",
-      "offset": 454,
+      "offset": 469,
       "length": 11,
       "value": "\"max_delta\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/OpenCV\/DocSize.swift",
       "kind": "StringLiteral",
-      "offset": 347,
+      "offset": 362,
       "length": 10,
       "value": "\"min_size\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/OpenCV\/DocSize.swift",
       "kind": "StringLiteral",
-      "offset": 381,
+      "offset": 396,
       "length": 10,
       "value": "\"new_size\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/OpenCV\/DocSize.swift",
       "kind": "StringLiteral",
-      "offset": 417,
+      "offset": 432,
       "length": 12,
       "value": "\"mean_ratio\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/OpenCV\/DocSize.swift",
       "kind": "StringLiteral",
-      "offset": 454,
+      "offset": 469,
       "length": 11,
       "value": "\"max_delta\""
     },
@@ -18166,7 +18329,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Coordinator\/CompleteFlow\/DocumentFlow\/DocumentFlowCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 682,
+      "offset": 684,
       "length": 5,
       "value": "false"
     },
@@ -18235,57 +18398,64 @@
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/Flags.swift",
+      "kind": "BooleanLiteral",
+      "offset": 539,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/Flags.swift",
       "kind": "StringLiteral",
-      "offset": 521,
+      "offset": 609,
       "length": 9,
       "value": "\"open_cv\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/Flags.swift",
       "kind": "StringLiteral",
-      "offset": 563,
+      "offset": 651,
       "length": 19,
       "value": "\"document_fallback\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/Flags.swift",
       "kind": "StringLiteral",
-      "offset": 668,
+      "offset": 756,
       "length": 9,
       "value": "\"metrics\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/Flags.swift",
       "kind": "StringLiteral",
-      "offset": 716,
+      "offset": 804,
       "length": 22,
       "value": "\"documentTypification\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/Flags.swift",
       "kind": "StringLiteral",
-      "offset": 521,
+      "offset": 609,
       "length": 9,
       "value": "\"open_cv\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/Flags.swift",
       "kind": "StringLiteral",
-      "offset": 563,
+      "offset": 651,
       "length": 19,
       "value": "\"document_fallback\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/Flags.swift",
       "kind": "StringLiteral",
-      "offset": 668,
+      "offset": 756,
       "length": 9,
       "value": "\"metrics\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/Flags.swift",
       "kind": "StringLiteral",
-      "offset": 716,
+      "offset": 804,
       "length": 22,
       "value": "\"documentTypification\""
     },
@@ -18333,36 +18503,50 @@
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Helpers\/Extensions\/ViewMakers+Extension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2455,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Helpers\/Extensions\/ViewMakers+Extension.swift",
       "kind": "BooleanLiteral",
-      "offset": 2515,
+      "offset": 1753,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Helpers\/Extensions\/ViewMakers+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 4000,
+      "offset": 3083,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Helpers\/Extensions\/ViewMakers+Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3143,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Helpers\/Extensions\/ViewMakers+Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4042,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Helpers\/Extensions\/ViewMakers+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5223,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Helpers\/Extensions\/ViewMakers+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 4841,
+      "offset": 6064,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Coordinator\/IndividualRequest\/IndividualRequestCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 3468,
+      "offset": 4724,
       "length": 4,
       "value": "true"
     },
@@ -18414,6 +18598,62 @@
       "offset": 235,
       "length": 8,
       "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Enums\/IDFlowType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 312,
+      "length": 8,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Enums\/IDFlowType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 327,
+      "length": 8,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Enums\/IDFlowType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 342,
+      "length": 18,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Enums\/IDFlowType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 367,
+      "length": 18,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Enums\/IDFlowType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 312,
+      "length": 8,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Enums\/IDFlowType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 327,
+      "length": 8,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Enums\/IDFlowType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 342,
+      "length": 18,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Enums\/IDFlowType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 367,
+      "length": 18,
+      "value": "4"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Helpers\/Extensions\/UIBorderedImageView.swift",
@@ -18495,30 +18735,58 @@
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/IDwallFile\/IDwallFileModels.swift",
       "kind": "StringLiteral",
-      "offset": 346,
+      "offset": 368,
       "length": 5,
       "value": "\"doc\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/IDwallFile\/IDwallFileModels.swift",
       "kind": "StringLiteral",
-      "offset": 346,
+      "offset": 368,
       "length": 5,
       "value": "\"doc\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/IDwallFile\/IDwallFileModels.swift",
-      "kind": "StringLiteral",
-      "offset": 477,
-      "length": 9,
-      "value": "\"default\""
+      "kind": "IntegerLiteral",
+      "offset": 504,
+      "length": 4,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/IDwallFile\/IDwallFileModels.swift",
-      "kind": "StringLiteral",
-      "offset": 477,
-      "length": 9,
-      "value": "\"default\""
+      "kind": "IntegerLiteral",
+      "offset": 518,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/IDwallFile\/IDwallFileModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 532,
+      "length": 7,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/IDwallFile\/IDwallFileModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 549,
+      "length": 5,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/IDwallFile\/IDwallFileModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 564,
+      "length": 7,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/IDwallFile\/IDwallFileModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 602,
+      "length": 4,
+      "value": "6"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Documents\/IDwallDocumentConfirmation\/DocumentConfirmation\/View\/DocumentThumbnailView.swift",
@@ -18743,6 +19011,13 @@
       "offset": 170,
       "length": 11,
       "value": "\"IDwallToolkit.LoadingView\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 186,
+      "length": 21,
+      "value": "\"IDwallToolkit.PreviewViewController\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Documents\/IDwallDocumentConfirmation\/DocumentPreview\/DocumentPreview.swift",
@@ -19270,16 +19545,23 @@
       "value": "\"IDwallToolkit.DigitalDocFailUploadViewController\""
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewModel\/LivenessPreviewViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 698,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Documents\/DocumentModule\/ViewModel\/DocumentCameraViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1031,
+      "offset": 1036,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Documents\/DocumentModule\/ViewModel\/DocumentCameraViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1068,
+      "offset": 1073,
       "length": 5,
       "value": "false"
     },
@@ -19363,63 +19645,63 @@
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Network\/APIClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 1500,
+      "offset": 1646,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Network\/APIClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 2795,
+      "offset": 3080,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Network\/APIClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 2818,
+      "offset": 3103,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Network\/APIClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 4215,
+      "offset": 4500,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Network\/APIClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 4238,
+      "offset": 4523,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Network\/APIClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 5368,
+      "offset": 5653,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Network\/APIClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 5391,
+      "offset": 5676,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Network\/APIClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 6522,
+      "offset": 6807,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Network\/APIClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 6587,
+      "offset": 6872,
       "length": 1,
       "value": "3"
     },
@@ -21062,6 +21344,13 @@
       "value": "\"IDwallToolkit.OptionsViewController\""
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Coordinator\/LivenessCapture\/LivenessCaptureFlow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 861,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/OpenCV\/OpenCV.swift",
       "kind": "StringLiteral",
       "offset": 356,
@@ -21587,6 +21876,27 @@
       "value": "0.5"
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/IDwallFile\/File.swift",
+      "kind": "StringLiteral",
+      "offset": 226,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/IDwallFile\/File.swift",
+      "kind": "IntegerLiteral",
+      "offset": 324,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/IDwallFile\/File.swift",
+      "kind": "StringLiteral",
+      "offset": 345,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Documents\/DocumentModule\/States\/DocumentStateCompleted.swift",
       "kind": "FloatLiteral",
       "offset": 319,
@@ -21596,65 +21906,9 @@
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/IDwallFile\/IDwallFile.swift",
       "kind": "StringLiteral",
-      "offset": 296,
+      "offset": 271,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/DocumentClassificationData.swift",
-      "kind": "StringLiteral",
-      "offset": 356,
-      "length": 6,
-      "value": "\"urls\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/DocumentClassificationData.swift",
-      "kind": "StringLiteral",
-      "offset": 387,
-      "length": 10,
-      "value": "\"provider\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/DocumentClassificationData.swift",
-      "kind": "StringLiteral",
-      "offset": 356,
-      "length": 6,
-      "value": "\"urls\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/DocumentClassificationData.swift",
-      "kind": "StringLiteral",
-      "offset": 387,
-      "length": 10,
-      "value": "\"provider\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/DocumentClassificationData.swift",
-      "kind": "StringLiteral",
-      "offset": 565,
-      "length": 11,
-      "value": "\"uploadUri\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/DocumentClassificationData.swift",
-      "kind": "StringLiteral",
-      "offset": 600,
-      "length": 9,
-      "value": "\"tempUri\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/DocumentClassificationData.swift",
-      "kind": "StringLiteral",
-      "offset": 565,
-      "length": 11,
-      "value": "\"uploadUri\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/DocumentClassificationData.swift",
-      "kind": "StringLiteral",
-      "offset": 600,
-      "length": 9,
-      "value": "\"tempUri\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Common\/Tutorial\/ViewModel\/Document\/DigitalCnhTutorialViewModel.swift",
@@ -21728,50 +21982,50 @@
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Storage\/IDwallRepository.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2767,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Storage\/IDwallRepository.swift",
       "kind": "Array",
-      "offset": 2864,
+      "offset": 2409,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Storage\/IDwallRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 2913,
+      "kind": "Array",
+      "offset": 2455,
       "length": 2,
-      "value": "\"\""
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Storage\/IDwallRepository.swift",
       "kind": "IntegerLiteral",
-      "offset": 7350,
+      "offset": 2775,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Storage\/IDwallRepository.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6971,
       "length": 8,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Storage\/IDwallRepository.swift",
       "kind": "IntegerLiteral",
-      "offset": 7368,
+      "offset": 6989,
       "length": 3,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Storage\/IDwallRepository.swift",
       "kind": "IntegerLiteral",
-      "offset": 7350,
+      "offset": 6971,
       "length": 8,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Storage\/IDwallRepository.swift",
       "kind": "IntegerLiteral",
-      "offset": 7368,
+      "offset": 6989,
       "length": 3,
       "value": "2"
     },
@@ -21792,42 +22046,42 @@
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/OpenCV\/Reflex.swift",
       "kind": "StringLiteral",
-      "offset": 340,
+      "offset": 350,
       "length": 10,
       "value": "\"min_area\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/OpenCV\/Reflex.swift",
       "kind": "StringLiteral",
-      "offset": 374,
+      "offset": 384,
       "length": 10,
       "value": "\"max_dist\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/OpenCV\/Reflex.swift",
       "kind": "StringLiteral",
-      "offset": 411,
+      "offset": 421,
       "length": 13,
       "value": "\"inside_docs\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/OpenCV\/Reflex.swift",
       "kind": "StringLiteral",
-      "offset": 340,
+      "offset": 350,
       "length": 10,
       "value": "\"min_area\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/OpenCV\/Reflex.swift",
       "kind": "StringLiteral",
-      "offset": 374,
+      "offset": 384,
       "length": 10,
       "value": "\"max_dist\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/Services\/Model\/FreatureFlags\/OpenCV\/Reflex.swift",
       "kind": "StringLiteral",
-      "offset": 411,
+      "offset": 421,
       "length": 13,
       "value": "\"inside_docs\""
     },
@@ -21840,71 +22094,127 @@
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Enums\/IDDocumentType.swift",
+      "kind": "Dictionary",
+      "offset": 275,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Enums\/IDDocumentType.swift",
+      "kind": "Dictionary",
+      "offset": 323,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Enums\/IDDocumentType.swift",
       "kind": "IntegerLiteral",
-      "offset": 229,
+      "offset": 1203,
       "length": 3,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Enums\/IDDocumentType.swift",
       "kind": "IntegerLiteral",
-      "offset": 242,
+      "offset": 1213,
       "length": 8,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Enums\/IDDocumentType.swift",
       "kind": "IntegerLiteral",
-      "offset": 260,
+      "offset": 1228,
       "length": 4,
       "value": "3"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Enums\/IDDocumentType.swift",
       "kind": "IntegerLiteral",
-      "offset": 274,
+      "offset": 1239,
       "length": 3,
       "value": "4"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Enums\/IDDocumentType.swift",
       "kind": "IntegerLiteral",
-      "offset": 287,
+      "offset": 1249,
       "length": 4,
       "value": "5"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Enums\/IDDocumentType.swift",
       "kind": "IntegerLiteral",
-      "offset": 229,
+      "offset": 1260,
+      "length": 4,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Enums\/IDDocumentType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3818,
       "length": 3,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Enums\/IDDocumentType.swift",
       "kind": "IntegerLiteral",
-      "offset": 242,
+      "offset": 3831,
       "length": 8,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Enums\/IDDocumentType.swift",
       "kind": "IntegerLiteral",
-      "offset": 260,
+      "offset": 3849,
       "length": 4,
       "value": "3"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Enums\/IDDocumentType.swift",
       "kind": "IntegerLiteral",
-      "offset": 274,
+      "offset": 3863,
       "length": 3,
       "value": "4"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Enums\/IDDocumentType.swift",
       "kind": "IntegerLiteral",
-      "offset": 287,
+      "offset": 3876,
+      "length": 4,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Enums\/IDDocumentType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3818,
+      "length": 3,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Enums\/IDDocumentType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3831,
+      "length": 8,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Enums\/IDDocumentType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3849,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Enums\/IDDocumentType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3863,
+      "length": 3,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/PublicInterface\/Enums\/IDDocumentType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3876,
       "length": 4,
       "value": "5"
     },
@@ -22177,9 +22487,16 @@
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Common\/IDwallViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 301,
+      "offset": 352,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Common\/IDwallViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 20,
+      "length": 20,
+      "value": "\"IDwallToolkit.IDwallViewController\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Documents\/DocumentModule\/States\/DocumentStateHoldSteady.swift",
@@ -22208,6 +22525,244 @@
       "offset": 495,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "StringLiteral",
+      "offset": 421,
+      "length": 30,
+      "value": "\"PreviewView.previewImageView\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 494,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 514,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 572,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 643,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 759,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 838,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 913,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "StringLiteral",
+      "offset": 1037,
+      "length": 26,
+      "value": "\"PreviewView.messageLabel\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1187,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1255,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1334,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1395,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "StringLiteral",
+      "offset": 1446,
+      "length": 26,
+      "value": "\"PreviewView.acceptButton\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1526,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1634,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1703,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1781,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1840,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "StringLiteral",
+      "offset": 1891,
+      "length": 26,
+      "value": "\"PreviewView.cancelButton\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1970,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1979,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1990,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2000,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2056,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2065,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2077,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2087,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2134,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2210,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "StringLiteral",
+      "offset": 2363,
+      "length": 47,
+      "value": "\"IDwallDocumentClassificationGenericErrorTitle\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "StringLiteral",
+      "offset": 2495,
+      "length": 53,
+      "value": "\"IDwallDocumentClassificationGenericErrorDescription\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2594,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Features\/Liveness\/PreviewView\/ViewController\/PreviewView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2666,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/IDwallToolkit\/IDwallToolkit\/Core\/MetricsModule\/IDwallEventsManager.swift",

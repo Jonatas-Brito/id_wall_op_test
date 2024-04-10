@@ -6,7 +6,7 @@ public class IdwallSdkBridgeFlutterPluginSwift: NSObject, FlutterPlugin, IDwallE
     static var channelMessage: FlutterBasicMessageChannel?
     private static var isCallback = false // TODO:remove this when sdk ios make support to this fix
     let BRIDGE_NAME = "bridge - Flutter"
-    let BRIDGE_VERSION = "3.3.0"
+    let BRIDGE_VERSION = "3.3.1"
     
     public static func register(with registrar: FlutterPluginRegistrar) {
         let channel = FlutterMethodChannel(name: "idwall_sdk", binaryMessenger: registrar.messenger())

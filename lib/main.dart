@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Demo Id Wall'),
     );
   }
 }
@@ -53,26 +53,28 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'You have pushed the button this many times:',
+              'Press the button to Start Flow',
+              style: TextStyle(fontSize: 20),
             ),
-            Text(
-              '1',
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),
+            const SizedBox(height: 20),
+            ElevatedButton(
+                onPressed: () {
+                  IdwallSdk.startFlow(
+                    IdwallFlowType.complete,
+                    [IdwallDocumentType.rg, IdwallDocumentType.cnh],
+                    [
+                      IdwallDocumentOption.digital,
+                      IdwallDocumentOption.printed
+                    ],
+                  ).then((token) async {});
+                },
+                child: const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 60),
+                  child: Text("Button"),
+                )),
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          IdwallSdk.startFlow(
-            IdwallFlowType.complete,
-            [IdwallDocumentType.rg, IdwallDocumentType.cnh],
-            [IdwallDocumentOption.digital, IdwallDocumentOption.printed],
-          ).then((token) async {});
-        },
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }

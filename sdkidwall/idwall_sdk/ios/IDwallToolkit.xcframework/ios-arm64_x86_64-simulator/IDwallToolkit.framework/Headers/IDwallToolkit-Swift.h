@@ -305,6 +305,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+
 @class NSCoder;
 @class UITraitCollection;
 
@@ -328,7 +329,7 @@ typedef SWIFT_ENUM(NSInteger, IDDocSide, open) {
   IDDocSideBack = 1,
 };
 
-typedef SWIFT_ENUM(NSInteger, IDDocumentType, open) {
+typedef SWIFT_ENUM(NSUInteger, IDDocumentType, open) {
   IDDocumentTypeRG = 0,
   IDDocumentTypeCNH = 1,
   IDDocumentTypeTypified = 2,
@@ -479,7 +480,7 @@ SWIFT_CLASS("_TtC13IDwallToolkit20IDwallToolkitManager")
 SWIFT_CLASS("_TtC13IDwallToolkit21IDwallToolkitSettings")
 @interface IDwallToolkitSettings : NSObject
 + (IDwallToolkitSettings * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)initWithAuthKey:(NSString * _Nonnull)authKey SWIFT_METHOD_FAMILY(none) SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)initWithAuthKey:(NSString * _Nonnull)authKey SWIFT_METHOD_FAMILY(none);
 - (void)setupIDWallPublicKey:(NSArray<NSString *> * _Nonnull)publicKeys behaviorKey:(NSString * _Nullable)behaviorKey;
 - (void)setOnboardingDataWith:(NSData * _Nullable)data;
 - (void)setEventHandler:(id <IDwallEventsHandler> _Nonnull)handler;
@@ -904,6 +905,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+
 @class NSCoder;
 @class UITraitCollection;
 
@@ -927,7 +929,7 @@ typedef SWIFT_ENUM(NSInteger, IDDocSide, open) {
   IDDocSideBack = 1,
 };
 
-typedef SWIFT_ENUM(NSInteger, IDDocumentType, open) {
+typedef SWIFT_ENUM(NSUInteger, IDDocumentType, open) {
   IDDocumentTypeRG = 0,
   IDDocumentTypeCNH = 1,
   IDDocumentTypeTypified = 2,
@@ -1078,7 +1080,7 @@ SWIFT_CLASS("_TtC13IDwallToolkit20IDwallToolkitManager")
 SWIFT_CLASS("_TtC13IDwallToolkit21IDwallToolkitSettings")
 @interface IDwallToolkitSettings : NSObject
 + (IDwallToolkitSettings * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)initWithAuthKey:(NSString * _Nonnull)authKey SWIFT_METHOD_FAMILY(none) SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)initWithAuthKey:(NSString * _Nonnull)authKey SWIFT_METHOD_FAMILY(none);
 - (void)setupIDWallPublicKey:(NSArray<NSString *> * _Nonnull)publicKeys behaviorKey:(NSString * _Nullable)behaviorKey;
 - (void)setOnboardingDataWith:(NSData * _Nullable)data;
 - (void)setEventHandler:(id <IDwallEventsHandler> _Nonnull)handler;

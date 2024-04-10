@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/IDwallToolkit-Swift.h</key>
 		<data>
-		E9aNvpNkvvabgoHelhNGRGxelGI=
+		sP+qIORDxYFGadAKTiTzYgKXuPU=
 		</data>
 		<key>Headers/IDwallToolkit.h</key>
 		<data>
@@ -38,23 +38,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3pIPGCkKhUO+6ZU2Wmc3lQsYJ4w=
+		mywsH7+kGht8/tdkqh93qO3vTWQ=
 		</data>
 		<key>Modules/IDwallToolkit.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		FU+lA2OrJDSo+s7H3n0clUbiF1M=
+		Pym1s4RN7IttYN2WwqbOFvg6oTw=
 		</data>
 		<key>Modules/IDwallToolkit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		Y/cADZKuEiMyYBXOf5kvjLwOxbY=
+		LN027qNaF+Bjgi4GMIkN0snHMtM=
 		</data>
 		<key>Modules/IDwallToolkit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Es18ijBuSjtSCe5dwZWZ0RqGHzc=
+		c6fnxXouw2d/krThQ+cV/Vwh468=
 		</data>
 		<key>Modules/IDwallToolkit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		U9whU6MZexwlGRJRJvbTikcsuFA=
+		C6o5EyI5FpBWaWUuA7xcQpxWOXM=
 		</data>
 		<key>Modules/IDwallToolkit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -62,19 +62,19 @@
 		</data>
 		<key>Modules/IDwallToolkit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		U9whU6MZexwlGRJRJvbTikcsuFA=
+		C6o5EyI5FpBWaWUuA7xcQpxWOXM=
 		</data>
 		<key>Modules/IDwallToolkit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Muc+fronac+1G1LySWjQdR0h6lk=
+		jHD/2drjMX1471HKWd2kdI/+xzY=
 		</data>
 		<key>Modules/IDwallToolkit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Es18ijBuSjtSCe5dwZWZ0RqGHzc=
+		c6fnxXouw2d/krThQ+cV/Vwh468=
 		</data>
 		<key>Modules/IDwallToolkit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Ssq1Hk9e9E4jicDaRya75jygpvE=
+		wwQgaRG5Yf1lPWDOLdzpGw31Qmw=
 		</data>
 		<key>Modules/IDwallToolkit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -82,11 +82,11 @@
 		</data>
 		<key>Modules/IDwallToolkit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Ssq1Hk9e9E4jicDaRya75jygpvE=
+		wwQgaRG5Yf1lPWDOLdzpGw31Qmw=
 		</data>
 		<key>Modules/IDwallToolkit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		EpmPcDI1yMxC32gKoBoyKPiACDE=
+		e58J5R3gmjhSYFD+btWuYIW1qZw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -151,7 +151,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aJ+agwUevpboN6CLRwCcE339h7kT3xmr4zEndWfAtv4=
+			VjiOT0SQLbzOhcv37YVmesMn88XsqpNg+RcisiwJgV4=
 			</data>
 		</dict>
 		<key>Headers/IDwallToolkit.h</key>
@@ -186,28 +186,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yTpeDYEXF27ctUfk6GXctqdmItRPI/fm4I9Gb+I1rF8=
+			mUNmHt8KkfsQ30t3uzF8MkBs7QxRLQqsHVI6l9CqhcY=
 			</data>
 		</dict>
 		<key>Modules/IDwallToolkit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tyKLlASI+2pm6ccRbm7yw9u4iseDsnKC8WOqwGb6NHs=
+			s1d9VZk3lmjPl7y5Pm/ALngg+fbO2wpM3RhVxsWJVHU=
 			</data>
 		</dict>
 		<key>Modules/IDwallToolkit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0IVV1PzbyIeVW9KsHEC3q/UVkF12cK4xi57IFJh+GWg=
+			KIXVndUVCbHI1IbF6ABb8W3FDGDV1Zg/9f32bWzZMcQ=
 			</data>
 		</dict>
 		<key>Modules/IDwallToolkit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r8DKNTvcimTZ0kSFmCUOVTQ46SL8jLGKXuW85ZWnv0A=
+			S4ApB3KaSCGJzzLNxsqMCMezLDru94ZmCwlY2X4j2Lc=
 			</data>
 		</dict>
 		<key>Modules/IDwallToolkit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -221,28 +221,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r8DKNTvcimTZ0kSFmCUOVTQ46SL8jLGKXuW85ZWnv0A=
+			S4ApB3KaSCGJzzLNxsqMCMezLDru94ZmCwlY2X4j2Lc=
 			</data>
 		</dict>
 		<key>Modules/IDwallToolkit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NbMQSaHTC0GO2ESVxiZbMSGeb6TxwsUm/ES02lO7V2o=
+			fmKnhZC8IBS2XEQIoshF3LzZ9HtT6ymsulqO9E0qZ28=
 			</data>
 		</dict>
 		<key>Modules/IDwallToolkit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0IVV1PzbyIeVW9KsHEC3q/UVkF12cK4xi57IFJh+GWg=
+			KIXVndUVCbHI1IbF6ABb8W3FDGDV1Zg/9f32bWzZMcQ=
 			</data>
 		</dict>
 		<key>Modules/IDwallToolkit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZRXsJ4XNEfou+Uduxq8qngY3Kli4dTKaFD9oyJjzRvE=
+			spuZpLaGxwM5N8FzQUoMr9GbpwDMwsv3TXL2f40l9qM=
 			</data>
 		</dict>
 		<key>Modules/IDwallToolkit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -256,14 +256,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZRXsJ4XNEfou+Uduxq8qngY3Kli4dTKaFD9oyJjzRvE=
+			spuZpLaGxwM5N8FzQUoMr9GbpwDMwsv3TXL2f40l9qM=
 			</data>
 		</dict>
 		<key>Modules/IDwallToolkit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z3LVf51BUOWfVWin9rtzYBM5yTm211BRyeqc+QBpCmg=
+			Nzz6meMj+uWt+XPg5QVhZFcLlpAbSoeRGpeg9Tu3Q7c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -1,7 +1,7 @@
 package co.idwall.sdk_bridge_flutter
 
-import co.idwall.internal_common.utils.log.LoggingLevel
 import co.idwall.toolkit.InputType
+import co.idwall.toolkit.core.log.LoggingLevel
 import co.idwall.toolkit.flow.core.Doc
 import co.idwall.toolkit.flow.core.DocumentSide
 import co.idwall.toolkit.flow.core.Flow
