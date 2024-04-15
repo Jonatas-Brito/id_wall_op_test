@@ -15,6 +15,13 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        maven {
+        url idwallUrl
+        credentials (PasswordCredentials) {
+          username = idwallUsername
+          password = idwallPassword
+      }
+    }
     }
 }
 
